@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+    --cor-primaria:  #F3F5FC;
+    --cor-secundaria:#f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-houver:  #0A3871;
+    --cor-botao-fundo:  #0A3871;
+    --cor-botao-fonte:  #0A3871;
+    --cor-borda-botao: 0.625rem solid #ccc;
+    --fonte-primaria: "Inter", sans-serif;
+    --tela-largura: 0;
+    --tela-altura: 0;
+
+}
+
+*{
+background-color: var(--cor-primaria);
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+/* Estilo para telas grandes (desktops) */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2rem;
+        padding: 2.5rem;
+    }
+}
+
+.cabecalho {
+    margin-left: 0.0625rem;
+    padding-top: 0.625rem;
+    width:auto;
+    background-color: var(--cor-primaria);
+    
+    
+}
+.cabecalho__logo{
+    display:flex;
+    font-family: var(--fonte-primaria);
+    gap: 0.0625rem;
+    justify-content: left;
+    margin-top: 0.0625rem; /*1px*/
+    margin-left: 0.0625rem;
+    padding: 0,5% 0,5% 0,5% 0,5%;
+    
+}
+.apresentacao{
+  display: flex;
+ /* 
+  margin-bottom: 50px;
+  margin-top: 1%;
+  width:95%;*/
+
+  margin-left: 3.25rem;
+  padding: 0;
+  height: 80%;
+  width: 90%;
+  gap: 10rem;
+  border:none;   
+}
+.apresentacao__primaria{
+    border: none;
+    margin-top: 0.5rem;
+}  
+.tituloPrincipal h1 {
+    font-family: var(--fonte-primaria);    
+    color : var(--cor-botao-fonte);
+    font-size: 0.82rem;
+    margin-left: 0.5rem;
+   
+}
+.tituloSecundario h1 {
+    font-family: var(--fonte-primaria);
+    color :var(--cor-botao-fonte);
+    font-size: 0.95rem;
+    margin-left: 3.125rem;
+}
+.alerta h6 {
+    font-family: var(--fonte-primaria);
+    color : #495057;
+    margin-left: 0.0625rem;
+    padding: 0;
+    
+}
+
+
+.apresentacao__principal #textoPrincipal[name="txtPrincipal"] {
+background-color:var(--cor-primaria);
+background-image: url(/Assets/criptografia.png);
+background-size:20%;
+background-repeat: no-repeat;
+background-position: center;
+width: 80%;;
+height: 100%;
+margin-top: 0.0625rem;
+margin-left: 0.0625rem;
+font-family: var(--fonte-primaria);
+color:var(--cor-botao-fonte);
+border:none;
+outline: none;
+text-transform: lowercase;
+resize: none;
+padding: 0;
+
+
+}
+
+.apresentacao__principal{
+    padding:1rem;
+    width: 100%;
+    height: 80%;
+    border:none;
+    border-radius: 1rem;/*16px*/
+}
+.apresentacao__secundaria{
+    padding: 1rem ;
+    width: 100%;
+    height: 80%;
+    border: none;
+    border-radius: 1rem; /*15px*/
+}
+.apresentacao__secundaria #textoCripto[name="txtSecundario"]  {
+    background-color: var(--cor-primaria);
+    background-image: url(/Assets/Garoto\ Com\ Lupa.png);
+    background-position: center;
+    background-size:80%; /* Ajusta a imagem para cobrir todo o textarea */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    font-family: var(--fonte-primaria);
+    color:  var(--cor-botao-fonte); /* Define a cor do texto para branco para melhor visibilidade */
+    padding: 0; /* Adiciona um pouco de espaçamento interno */
+    width: 70%;
+    height: 100%;
+    border:none;  /* Define uma borda cinza clara */
+    font-size: 0.875rem; /* Define o tamanho da fonte */
+    margin-top: 0.0625rem;
+    margin-left: 3.125rem;
+    resize: none;
+    
+}  
+.apresentacao__btn__principal{
+   display: flex;
+    justify-content: left;
+    padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
+    gap: 2.5rem;
+}
+.apresentacao__btn__secundario{
+    display: flex;
+    justify-content: left ;
+    padding: 0;
+}    
+.btn_principal {
+   background-color: var(--cor-primaria);
+   font-family: var(--fonte-primaria);
+   color: var(--cor-botao-fonte);
+   font-size: 0.875rem;
+   border: var(--cor-borda-botao);
+   border-width: 0.125rem;
+   margin-top: 0;
+   border-radius: 0.9rem;
+   width: 40%;
+   height: 3rem;
+
+}
+.btn_principal:hover{
+    background-color: var(--cor-houver);
+    color:chartreuse;
+}
+.btn_secundario:hover{
+    background-color: var(--cor-houver);
+   color:chartreuse;
+    
+}
+.btn_secundario {
+    background-color: var(--cor-primaria);
+    font-family: var(--fonte-primaria);
+    color:var(--cor-botao-fonte);
+    font-size: 0.80rem;
+    border: var(--cor-borda-botao);
+    border-width: 0.125rem;
+    margin-left: 3.125rem;
+    margin-top: 3rem;
+    border-radius: 0.9rem;
+    width: 68%;
+    height: 3rem;
+    margin-left: 3.125rem;
+}
+
+.rodape{
+    /* box-sizing: border-box;*/
+    font-family: var(--fonte-primaria);
+    font-weight: 25rem;
+     font-size: 0.78rem; 
+     padding: 0; 
+     color: var(--cor-botao-fonte);
+     border: none;
+     background-color:var(--cor-primaria);
+     text-align: center;
+ }

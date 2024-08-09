@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Encriptador Kleber Lima</title>
+    <link rel="stylesheet" href="./Style/Style.css">
+     <style>
+        textarea::placeholder {
+            font-weight: bold; /* Estilo negrito */
+            color: #ac0d0d; /* Cor do texto do placeholder */
+        }
+       
+       @keyframes piscar {
+           0% { opacity: 1; } /* Visível no início */
+           50% { opacity: 0; } /* Invisível no meio */
+           100% { opacity: 1; } /* Visível no final */
+       } 
+       .blinking-placeholder::placeholder {
+            font-weight: bold;
+            color: #ac0d0d; 
+            opacity: 1; /* Default opacity */
+        }
+   </style>
+<script src="script.js"></script>
+</head>
+
+<header class="cabecalho">
+    <nav class="cabecalho__logo">
+       <img class="imagem" src="./Assets/Logo Alura.png" alt="logo Alura" >
+       <img class="imagem" src="./Assets/logo one.webp"  alt="logo Alura" >
+    </nav>
+</header>
+
+<body>
+    <main class="apresentacao">
+        <section class="apresentacao__principal">
+                <div class="tituloPrincipal">
+                     <h1>Área de Processamento de texto para Criptografia/Descriptografia.</h1>
+                </div>
+                <textarea id="textoPrincipal" name="txtPrincipal" placeholder="Digite aqui o texto." rows="20" cols="40"></textarea>
+                <br>
+                <div class="alerta">
+                    <h6>Atenção !!! Apenas letras minúsculas e sem acento. </h6>
+                </div>
+                <div class="apresentacao__btn__principal">
+                    <button class="btn_principal" onclick="criptografar()">
+                        <img src="./Assets/Criptografia.png" alt="Icon Description" style="width: 0.9rem;; height:0.9rem;">
+                        Criptografar
+
+                    </button>
+                   
+                    <button class="btn_principal" onclick="descriptografar()">
+                        <img src="./Assets/descriptografa.png" alt="Icon Description" style="width:0.9rem; height:0.9rem;">
+                        Descriptografar</button>
+                </div>
+                
+        </section>
+        <section class="apresentacao__secundaria">
+                <div class="tituloSecundario">
+                        <h1>Área de texto Processado .</h1>
+                </div>
+                     <textarea id="textoCripto" name="txtSecundario"  rows="20" cols="30" readonly ></textarea><br>
+             <div class="apresentacao__btn__secundario">
+                <button class="btn_secundario" onclick="transferir()">
+                    <img src="./Assets/copiar.png" alt="Icon Description" style="width:0.9rem; height:0.9rem;">
+                    Transferir texto para área de processamento
+                </button>
+             </div>
+            
+        </section>  
+</main>
+   <!--<footer class="rodape"> 
+ <p>Desenvolvido durante um challenge proposto no curso de desenvolvimento de sistemas. escrito por Kleber Alves em 08/2024 </p>
+-->
+<footer style="font-size: 0.7rem;  padding: 1rem; text-align: center;">
+        <p>&copy; 2024 Kleber Alves de Lima. Todos os direitos reservados.</p>
+        <p>Desafio proposto por <a href="https://www.alura.com.br" target="_blank" style="color: #ecdbba;">Alura - Escola de Desenvolvimento de Sistemas</a></p>
+        <p>Este projeto faz parte de um exercício de criptografia no curso de desenvolvimento web.</p>
+        <p>Desenvolvido com <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank" style="color: #ecdbba;">JavaScript</a>, <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank" style="color: #ecdbba;">HTML</a> e <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank" style="color: #ecdbba;">CSS</a>.</p>
+        <p><a href="https://github.com/seu-usuario/seu-repositorio" target="_blank" style="color: #ecdbba;">Código disponível no GitHub</a></p>
+    </footer>
+    
+
+<script src="script.js"></script>
+</body>
+
+</html>
