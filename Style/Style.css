@@ -19,8 +19,8 @@ background-color: var(--cor-primaria);
     .apresentacao    {
       flex-direction: column;
     }
-    .rodape{
-        font-size: 0.4rem; 
+    .rodape {
+        font-size: 5px; 
        
      }
     
@@ -193,7 +193,7 @@ padding: 0;
 }
 
 .rodape{
-    font-size: 0.7rem; 
+    font-size: 0.4rem; 
     padding: 1rem; 
     text-align: center;
  }
