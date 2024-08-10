@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
     --cor-primaria:  #F3F5FC;
-    --cor-secundaria:#f6f6f6;
-    --cor-terciaria: #22D4FD;
     --cor-houver:  #0A3871;
     --cor-botao-fundo:  #0A3871;
     --cor-botao-fonte:  #0A3871;
@@ -16,10 +14,10 @@
 *{
 background-color: var(--cor-primaria);
 }
+
 @media (min-width: 768px) {
-    body {
-        font-size: 1rem;
-        padding: 1rem;
+    .apresentacao{
+        flex-direction: column;
     }
 }
 
