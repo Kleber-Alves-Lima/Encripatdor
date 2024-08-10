@@ -20,9 +20,14 @@ background-color: var(--cor-primaria);
       flex-direction: column;
     }
     .rodape {
-        font-size: 5px; 
+        font-size: 0.3125rem; 
        
      }
+     .apresentacao__btn__principal{
+         gap: 2rem;
+     }
+     
+
     
 }
 /* Estilo para telas grandes (desktops) */
