@@ -15,7 +15,7 @@
 background-color: var(--cor-primaria);
 }
 /* Estilos para dispositivos móveis */
-@media(max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
     .apresentacao    {
       flex-direction: column;
     }
@@ -24,6 +24,7 @@ background-color: var(--cor-primaria);
         justify-content: left;
         padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
         gap: 0.5rem;
+        background-color: black;
     }
    /* .rodape {
         font-size: 0.3125rem;  
