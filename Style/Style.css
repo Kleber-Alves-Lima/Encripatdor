@@ -21,7 +21,7 @@ background-color: var(--cor-primaria);
     }
     .rodape {
         font-size: 0.3125rem;  
-        padding: 1rem; 
+        padding: 0; 
         text-align: center;
         height: 100%;
         width: 100%;
