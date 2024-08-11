@@ -168,7 +168,7 @@ padding: 0;
     display: flex;
     justify-content: left;
     padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
-    gap: 2.5rem;
+   
 }
 .apresentacao__btn__secundario{
     display: flex;
