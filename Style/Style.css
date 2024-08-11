@@ -20,8 +20,8 @@ background-color: var(--cor-primaria);
       flex-direction: column;
     }
     .apresentacao__btn__principal{
-        display: flex;
-       gap: 0.5rem;
+        display:block;
+        gap: 0.5rem;
     }
    /* .rodape {
         font-size: 0.3125rem;  
