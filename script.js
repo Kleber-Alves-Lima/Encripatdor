@@ -186,3 +186,13 @@ document.addEventListener('DOMContentLoaded', () => {
     function removerAcentos(str) {
         return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
+    function checkMediaQuery() {
+        // Verifica se a largura da tela está dentro do intervalo especificado
+        if (window.innerWidth >= 320 && window.innerWidth <= 767) {
+            alert('A regra @media foi aplicada!');
+        }
+    }
+    
+    // Chama a função quando a página é carregada e quando a janela é redimensionada
+    window.addEventListener('load', checkMediaQuery);
+    window.addEventListener('resize', checkMediaQuery);

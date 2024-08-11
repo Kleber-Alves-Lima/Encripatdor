@@ -19,14 +19,15 @@ background-color: var(--cor-primaria);
     .apresentacao    {
       flex-direction: column;
     }
+    .apresentacao__btn__principal{
+       gap: 0.5rem;
+    }
     .rodape {
         font-size: 0.3125rem;  
         padding: 0; 
         text-align: center;
         height: 100%;
         width: 100%;
-    
-        
        
      }
     
