@@ -15,12 +15,14 @@
 background-color: var(--cor-primaria);
 }
 /* Estilos para dispositivos móveis */
-@media (min-width: 320px) and (max-width: 767px) {
+@media(max-width: 767px) {
     .apresentacao    {
       flex-direction: column;
     }
     .apresentacao__btn__principal{
-        display:block;
+        display: flex;
+        justify-content: left;
+        padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
         gap: 0.5rem;
     }
    /* .rodape {
