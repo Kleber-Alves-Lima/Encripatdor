@@ -20,9 +20,10 @@ background-color: var(--cor-primaria);
       flex-direction: column;
     }
     .apresentacao__btn__principal{
+        display: flex;
        gap: 0.5rem;
     }
-    .rodape {
+   /* .rodape {
         font-size: 0.3125rem;  
         padding: 0; 
         text-align: center;
@@ -39,7 +40,7 @@ background-color: var(--cor-primaria);
     }
     .apresentacao__secundaria #textoCripto[name="txtSecundario"]  {
         margin-left: 1.5rem;
-    }
+    }*/
 }
 /* Estilo para telas grandes (desktops) */
 @media (min-width: 1024px) {
