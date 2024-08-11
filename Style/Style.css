@@ -15,7 +15,7 @@
 background-color: var(--cor-primaria);
 }
 /* Estilos para dispositivos móveis */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 600px) {
     .apresentacao    {
       flex-direction: column;
     }
@@ -24,7 +24,7 @@ background-color: var(--cor-primaria);
         justify-content: left;
         padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
         gap: 0.5rem;
-        background-color: black;
+        
     }
    /* .rodape {
         font-size: 0.3125rem;  
@@ -168,7 +168,7 @@ padding: 0;
     display: flex;
     justify-content: left;
     padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
-   
+   gap: 2.5rem;
 }
 .apresentacao__btn__secundario{
     display: flex;
