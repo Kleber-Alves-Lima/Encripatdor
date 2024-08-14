@@ -92,9 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return matrizCodigo.some(function(item) {
         return texto.includes(item[1]);
       });
-}
-
-   
+    }
     function encriptar(stringEncriptada) {
         let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
         for( let i = 0; 
