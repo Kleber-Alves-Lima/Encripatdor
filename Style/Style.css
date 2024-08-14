@@ -192,7 +192,7 @@ padding: 0;
         display: flex;
         justify-content: left;
         padding:0.0625rem 0.0625rem 0.0625rem 0.0625rem;
-        gap: 0.5rem;
+        gap: 0.7rem;
         
     }
    .rodape {
@@ -205,14 +205,14 @@ padding: 0;
      }
     
     .btn_secundario {
-        margin-left: 1.5rem;
+        margin-left: 2rem;
      }
      .tituloSecundario h1 {
-        margin-left: 1.5rem;
+        margin-left: 2rem;
     }
     
     .apresentacao__secundaria #textoCripto[name="txtSecundario"]  {
-        margin-left: 1.5rem;
+        margin-left: 2rem;
     }
 }
 /* Estilo para telas grandes (desktops) 
