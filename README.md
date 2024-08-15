@@ -54,3 +54,16 @@ Este curso é oferecido por:
 - <img class="imagem" src="./Assets/logo one.webp"  alt="logo Alura" >  **Oracle Next Education**: Programa da Oracle que visa capacitar profissionais para o mercado de tecnologia com treinamento avançado e recursos educacionais.
 
 Juntos, esses parceiros proporcionam um curso abrangente e atualizado, preparando os alunos para se destacarem na área de desenvolvimento e tecnologia.
+
+<h1 align="center"> Direitos Autorais</h1>
+
+- ©  2024 Kleber Alves de Lima. Todos os direitos reservados.
+
+<h1 align="center"> Contato</h1>
+
+Para dúvidas, sugestões ou parcerias, entre em contato:
+
+- Nome: Kleber Alves de Lima
+- E-mail: klebelimas@hotmail.com
+- Linkedin
+- Github
