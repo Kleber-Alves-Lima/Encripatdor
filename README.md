@@ -4,7 +4,7 @@
     <br />
     <br />
     <a href="Cadeado">
-      <img src="Assets/criptografia.png" alt="Imagem de Cadeado Fechado">
+      <img src="Assets/criptografia_aguia.png" alt="Imagem de Cadeado Fechado">
     </a>
   </h1>
 </div>
