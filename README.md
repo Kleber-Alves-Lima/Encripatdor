@@ -64,6 +64,6 @@ Juntos, esses parceiros proporcionam um curso abrangente e atualizado, preparand
 Para dúvidas, sugestões ou parcerias, entre em contato:
 
 - Nome......... : Kleber Alves de Lima
-- E-mail........ : klebelimas@hotmail.com
+- E-mail........ : klebelima@hotmail.com
 - Linkedin..... : https://www.linkedin.com/in/kleber-alves-desenvolvedor/
 - Github........ : https://github.com/Kleber-Alves-Lima
