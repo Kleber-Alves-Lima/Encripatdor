@@ -65,5 +65,5 @@ Para dúvidas, sugestões ou parcerias, entre em contato:
 
 - Nome: Kleber Alves de Lima
 - E-mail: klebelimas@hotmail.com
-- Linkedin
+- Linkedin : [][encriptador-murex.vercel.app](https://encriptador-murex.vercel.app)
 - Github
