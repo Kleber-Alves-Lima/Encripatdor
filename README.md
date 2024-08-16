@@ -63,7 +63,7 @@ Juntos, esses parceiros proporcionam um curso abrangente e atualizado, preparand
 
 Para dúvidas, sugestões ou parcerias, entre em contato:
 
-- Nome: Kleber Alves de Lima
-- E-mail: klebelimas@hotmail.com
-- Linkedin : [][encriptador-murex.vercel.app](https://encriptador-murex.vercel.app)
-- Github
+- Nome     : Kleber Alves de Lima
+- E-mail   : klebelimas@hotmail.com
+- Linkedin : https://www.linkedin.com/in/kleber-alves-desenvolvedor/
+- Github   :
