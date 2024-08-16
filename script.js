@@ -4,10 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (textarea) {
         let isPlaceholderVisible = true;
         let isEditing = false;
-
-        // Função para alternar a aparência
         const updateAppearance = () => {
-            if (textarea.value.trim() === '' && !isEditing) { // Verifica se o textarea está vazio e não está sendo editado
+            if (textarea.value.trim() === '' && !isEditing) { 
                 if (isPlaceholderVisible) {
                     textarea.setAttribute('placeholder', '');
                     textarea.style.backgroundImage = 'none';
@@ -19,25 +17,23 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         };
 
-        // Configura o intervalo de piscamento
+      
         const intervalId = setInterval(updateAppearance, 1000);
 
-        // Atualiza o estado quando o usuário está digitando
+
         textarea.addEventListener('input', () => {
             isEditing = true;
             textarea.setAttribute('placeholder', '');
             textarea.style.backgroundImage = 'none';
         });
 
-        // Atualiza o estado quando o textarea perde o foco
         textarea.addEventListener('blur', () => {
             isEditing = false;
             if (textarea.value.trim() === '') {
-                isPlaceholderVisible = true; // Permite que o piscar ocorra novamente
+                isPlaceholderVisible = true; 
             }
         });
 
-        // Atualiza o estado quando o textarea ganha o foco
         textarea.addEventListener('focus', () => {
             isEditing = true;
             textarea.setAttribute('placeholder', '');
@@ -48,23 +44,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
 });
-
-    function tamanhoTela() {
-        const largura = window.screen.width;
-        const altura = window.screen.height;
-    
-        // Atualiza as variáveis CSS
-        document.documentElement.style.setProperty('--tela-largura', largura + 'px');
-        document.documentElement.style.setProperty('--tela-altura', altura + 'px');
-    
-        // Retorna os valores para uso adicional em JavaScript, se necessário
-        return { width: largura, height: altura };
-    }
-    
-    // Chama a função para definir os valores CSS
-    tamanhoTela();
-    
-    console.log(`Largura: ${window.getComputedStyle(document.documentElement).getPropertyValue('--tela-largura')}, Altura: ${window.getComputedStyle(document.documentElement).getPropertyValue('--tela-altura')}`);
 
     function criptografar() {
         var textarea = document.getElementById('textoPrincipal');

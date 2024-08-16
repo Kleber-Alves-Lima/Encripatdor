@@ -14,33 +14,24 @@
 *{
 background-color: var(--cor-primaria);
 }
-/* Estilos para dispositivos móveis */
-
 .cabecalho {
     margin-left: 0.0625rem;
     padding-top: 0.625rem;
     width:auto;
     background-color: var(--cor-primaria);
-    
-    
 }
 .cabecalho__logo{
     display:flex;
     font-family: var(--fonte-primaria);
     gap: 0.0625rem;
     justify-content: left;
-    margin-top: 0.0625rem; /*1px*/
+    margin-top: 0.0625rem; 
     margin-left: 0.0625rem;
     padding: 0,5% 0,5% 0,5% 0,5%;
     
 }
 .apresentacao{
   display: flex;
- /* 
-  margin-bottom: 50px;
-  margin-top: 1%;
-  width:95%;*/
-
   margin-left: 3.25rem;
   padding: 0;
   height: 80%;
@@ -100,28 +91,28 @@ padding: 0;
     width: 100%;
     height: 80%;
     border:none;
-    border-radius: 1rem;/*16px*/
+    border-radius: 1rem;
 }
 .apresentacao__secundaria{
     padding: 1rem ;
     width: 100%;
     height: 80%;
     border: none;
-    border-radius: 1rem; /*15px*/
+    border-radius: 1rem; 
 }
 .apresentacao__secundaria #textoCripto[name="txtSecundario"]  {
     background-color: var(--cor-primaria);
     background-image: url(/Assets/Garoto\ Com\ Lupa.png);
     background-position: center;
-    background-size:80%; /* Ajusta a imagem para cobrir todo o textarea */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-size:80%; 
+    background-repeat: no-repeat; 
     font-family: var(--fonte-primaria);
-    color:  var(--cor-botao-fonte); /* Define a cor do texto para branco para melhor visibilidade */
-    padding: 0; /* Adiciona um pouco de espaçamento interno */
+    color:  var(--cor-botao-fonte);
+    padding: 0; 
     width: 70%;
     height: 100%;
-    border:none;  /* Define uma borda cinza clara */
-    font-size: 0.875rem; /* Define o tamanho da fonte */
+    border:none; 
+    font-size: 0.875rem; 
     margin-top: 0.0625rem;
     margin-left: 3.125rem;
     resize: none;
@@ -168,7 +159,7 @@ padding: 0;
     border: var(--cor-borda-botao);
     border-width: 0.125rem;
     margin-left: 3.125rem;
-    margin-top: 3rem;
+    margin-top: 2.2rem;
     border-radius: 0.9rem;
     width: 68%;
     height: 3rem;
@@ -178,7 +169,7 @@ padding: 0;
 .rodape{
     font-size: 1rem; 
     padding: 1rem; 
-    text-align: center;
+    text-align:  center;
     height: 80%;
     width: 90%;
  }
@@ -215,11 +206,3 @@ padding: 0;
         margin-left: 2rem;
     }
 }
-/* Estilo para telas grandes (desktops) 
-@media (min-width: 1024px) {
-    body {
-        font-size: 1.2rem;
-        padding: 2.5rem;
-    }
-}
-*/
