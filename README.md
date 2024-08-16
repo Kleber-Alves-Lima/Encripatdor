@@ -16,9 +16,11 @@ Este projeto de criptografia foi desenvolvido como parte do **Challenge Decodifi
 
 O desafio proposto pelo curso de desenvolvimento de sistemas visou não apenas o domínio técnico, mas também a compreensão de conceitos fundamentais de criptografia e segurança da informação. Este projeto reflete o comprometimento com a inovação e a excelência técnica, aplicando conhecimentos adquiridos ao longo do curso.
 
-Explore o projeto e veja como a criptografia pode ser utilizada para proteger suas mensagens. Para acessá-lo, clique no link abaixo:
+Explore o projeto e veja como a criptografia pode ser utilizada para proteger suas mensagens. Para acessá-lo, clique em um dos links abaixo:
 
-[encriptador-murex.vercel.app](https://encriptador-murex.vercel.app)
+[Página Vercel - encriptador-murex.vercel.app](https://encriptador-murex.vercel.app)
+
+[Página GitHub - https://kleber-alves-lima.github.io/Encriptador/](https://kleber-alves-lima.github.io/Encriptador/)
 
 <h1 align="center"> Recusrsos do Sistema </h1>
 
